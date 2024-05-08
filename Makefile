@@ -48,4 +48,4 @@ doc:
 gcov:
 	gcov -r -b $(OBJ:.o=.cpp)
 
-.PHONY: all clean test cppcheck cpplint doc gcov gcovr
+
