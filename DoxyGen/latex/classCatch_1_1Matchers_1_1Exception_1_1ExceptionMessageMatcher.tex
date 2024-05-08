@@ -1,0 +1,66 @@
+\doxysection{Catch\+::Matchers\+::Exception\+::Exception\+Message\+Matcher Class Reference}
+\hypertarget{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher}{}\label{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher}\index{Catch::Matchers::Exception::ExceptionMessageMatcher@{Catch::Matchers::Exception::ExceptionMessageMatcher}}
+Inheritance diagram for Catch\+::Matchers\+::Exception\+::Exception\+Message\+Matcher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.530120cm]{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher_ace55942f39ba653db3fd69d6d90e188f}\label{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher_ace55942f39ba653db3fd69d6d90e188f} 
+{\bfseries Exception\+Message\+Matcher} (std\+::string const \&message)
+\item 
+\Hypertarget{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher_aa0566d24990d69e96495360b8f79593d}\label{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher_aa0566d24990d69e96495360b8f79593d} 
+bool {\bfseries match} (std\+::exception const \&ex) const override
+\item 
+std\+::string \mbox{\hyperlink{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher_a3543441985ec877a781e660a403b1bae}{describe}} () const override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{structCatch_1_1Matchers_1_1Impl_1_1MatcherBase}{Catch\+::\+Matchers\+::\+Impl\+::\+Matcher\+Base$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structCatch_1_1Matchers_1_1Impl_1_1MatchAllOf}{Match\+All\+Of}}$<$ T $>$ {\bfseries operator\&\&} (\mbox{\hyperlink{structCatch_1_1Matchers_1_1Impl_1_1MatcherBase}{Matcher\+Base}} const \&other) const
+\item 
+\mbox{\hyperlink{structCatch_1_1Matchers_1_1Impl_1_1MatchAnyOf}{Match\+Any\+Of}}$<$ T $>$ {\bfseries operator\texorpdfstring{$\vert$}{|}\texorpdfstring{$\vert$}{|}} (\mbox{\hyperlink{structCatch_1_1Matchers_1_1Impl_1_1MatcherBase}{Matcher\+Base}} const \&other) const
+\item 
+\mbox{\hyperlink{structCatch_1_1Matchers_1_1Impl_1_1MatchNotOf}{Match\+Not\+Of}}$<$ T $>$ {\bfseries operator!} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase}{Catch\+::\+Matchers\+::\+Impl\+::\+Matcher\+Untyped\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Matcher\+Untyped\+Base} (\mbox{\hyperlink{classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase}{Matcher\+Untyped\+Base}} const \&)=default
+\item 
+\mbox{\hyperlink{classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase}{Matcher\+Untyped\+Base}} \& {\bfseries operator=} (\mbox{\hyperlink{classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase}{Matcher\+Untyped\+Base}} const \&)=delete
+\item 
+std\+::string {\bfseries to\+String} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{structCatch_1_1Matchers_1_1Impl_1_1MatcherMethod}{Catch\+::\+Matchers\+::\+Impl\+::\+Matcher\+Method$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool {\bfseries match} (T const \&arg) const=0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase}{Catch\+::\+Matchers\+::\+Impl\+::\+Matcher\+Untyped\+Base}}}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string {\bfseries m\+\_\+cached\+To\+String}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher_a3543441985ec877a781e660a403b1bae}\label{classCatch_1_1Matchers_1_1Exception_1_1ExceptionMessageMatcher_a3543441985ec877a781e660a403b1bae} 
+\index{Catch::Matchers::Exception::ExceptionMessageMatcher@{Catch::Matchers::Exception::ExceptionMessageMatcher}!describe@{describe}}
+\index{describe@{describe}!Catch::Matchers::Exception::ExceptionMessageMatcher@{Catch::Matchers::Exception::ExceptionMessageMatcher}}
+\doxysubsubsection{\texorpdfstring{describe()}{describe()}}
+{\footnotesize\ttfamily std\+::string Catch\+::\+Matchers\+::\+Exception\+::\+Exception\+Message\+Matcher\+::describe (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classCatch_1_1Matchers_1_1Impl_1_1MatcherUntypedBase}{Catch\+::\+Matchers\+::\+Impl\+::\+Matcher\+Untyped\+Base}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+catch.\+hpp\end{DoxyCompactItemize}
