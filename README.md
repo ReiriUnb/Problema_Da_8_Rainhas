@@ -12,4 +12,4 @@ Para executar o código basta entrar no terminal na pasta e digitar:
 4. make cpplint - para ver se o código está padronizado em seu estilo
 
 
-Para abrir a documentação Doxygren abrir o  "html" o arquivo "index.html"
+Para abrir a documentação abra a pasta DoxyGen vai ter o arquiv  "html".
