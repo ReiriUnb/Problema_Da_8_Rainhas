@@ -9,7 +9,7 @@ Para executar o código basta entrar no terminal na pasta e digitar:
 1. make - para rodar o programa
 2. make gcov - para executar o verificador de cobertura
 3. make valgrind - para executar o verificador estático 
-4. make cpplint - para ver se o código está padronizado em seu estilo
+
 
 
 Para abrir a documentação abra a pasta DoxyGen vai ter o arquiv  "html".
