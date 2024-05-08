@@ -64,3 +64,4 @@ int verificar_tabuleiro(char tabuleiro[8][8]) {
 
     return 1; // É uma solução válida
 }
+// Path: main.cpp
