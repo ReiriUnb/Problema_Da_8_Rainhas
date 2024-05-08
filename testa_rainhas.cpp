@@ -1,18 +1,13 @@
-/**
- * @file testa_rainhas.cpp
- * Testes para verificar soluções do problema das 8 rainhas.
- */
-
 #define CATCH_CONFIG_MAIN
 #include "rainhas.hpp"
 #include "catch.hpp"
 
-// Testa casos sem solução válida.
 TEST_CASE("solucoes invalidas para o problema", "[rainhas]") {
     REQUIRE(verifica_solucao_8_rainhas("teste_8_rainhas.txt") == 0);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_13.txt") == 0);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_14.txt") == 0);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_15.txt") == 0);
+
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_1.txt") == 0);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_2.txt") == 0);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_3.txt") == 0);
@@ -27,9 +22,9 @@ TEST_CASE("solucoes invalidas para o problema", "[rainhas]") {
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_31.txt") == 0);
 }
 
-// Testa casos com solução válida.
 TEST_CASE("solucoes validas para o problema", "[rainhas]") {
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_11.txt") == 1);
+
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_25.txt") == 1);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_26.txt") == 1);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_27.txt") == 1);
@@ -37,10 +32,10 @@ TEST_CASE("solucoes validas para o problema", "[rainhas]") {
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_28.txt") == 1);
 }
 
-// Testa casos com matriz inválida.
 TEST_CASE("matriz invalida para o problema", "[rainhas]") {
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_12.txt") == -1);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_16.txt") == -1);
+
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_17.txt") == -1);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_18.txt") == -1);
     REQUIRE(verifica_solucao_8_rainhas("tabuleiros/teste_19.txt") == -1);
